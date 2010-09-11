@@ -1,0 +1,856 @@
+Source: aptosid-transition-helper
+Section: oldlibs
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7.9.3)
+Standards-Version: 3.9.1
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-transition-helper/trunk/
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-transition-helper/trunk/
+
+Package: linux-image-2.6-sidux-amd64
+Architecture: all
+Depends: linux-image-2.6-aptosid-amd64, ${misc:Depends}
+Recommends: linux-headers-2.6-aptosid-amd64
+Description: transitional dummy package
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with AMD64 or Intel 64 processors machines for aptosid.
+ .
+ transitional metapackage to pull in linux-image-2.6-aptosid-amd64
+
+Package: linux-headers-2.6-sidux-amd64
+Architecture: all
+Depends: linux-headers-2.6-aptosid-amd64, ${misc:Depends}
+Description: transitional dummy package
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with AMD64 or Intel 64 processors machines for aptosid.
+ .
+ transitional metapackage to pull in linux-headers-2.6-aptosid-amd64
+
+Package: linux-image-2.6-sidux-686
+Architecture: all
+Depends: linux-image-2.6-aptosid-686, ${misc:Depends}
+Recommends: linux-headers-2.6-aptosid-686
+Description: transitional dummy package
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with Intel Pentium Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom;
+ AMD Geode LX/NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C3 "Nehemiah" or C7 processors machines for aptosid.
+ .
+ transitional metapackage to pull in linux-image-2.6-aptosid-686
+
+Package: linux-headers-2.6-sidux-686
+Architecture: all
+Depends: linux-headers-2.6-aptosid-686, ${misc:Depends}
+Description: transitional dummy package
+ This metapackage depends on the latest binary image for Linux kernel on
+ PCs with Intel Pentium Pro/II/III/4/4M/D/M, Xeon, Celeron, Core or Atom;
+ AMD Geode LX/NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C3 "Nehemiah" or C7 processors machines for aptosid.
+ .
+ transitional metapackage to pull in linux-headers-2.6-aptosid-686
+
+Package: sidux-searchplugins
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ Search Plug-In for sidux.com, used in Iceweasel  and other compatible
+ browsers.
+ .
+ This package is obsolete and should be removed.
+
+Package: ttf-sidux
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: fontconfig
+Description: transitional dummy package
+ Old sidux font used for the sidux logo, and other PR material.
+ .
+ This package is obsolete and should be removed.
+
+Package: configure-dsl
+Architecture: all
+Depends: ${misc:Depends},
+ pppoeconf
+Description: transitional dummy package
+ These scripts can be used to configure various different xDSL connection types
+ and modems for Debian.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2007-04-eros-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2007-04 "Έρως" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2007-04-eros
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2007-04 "Έρως" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-01-nyx-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2008-01 "Νυξ" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-01-nyx
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2008-01 "Νυξ" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-02-erebos-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2008-02 "Έρεβος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-02-erebos
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2008-02 "Έρεβος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-03-ourea-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2008-03 "Ουρέα" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-03-ourea
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2008-03 "Ουρέα" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-04-pontos-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2008-04 "Πόντος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2008-04-pontos
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2008-04 "Πόντος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-01-ouranos-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2009-01 "Οὐρανος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-01-ouranos
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2009-01 "Οὐρανος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-02-aether-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2009-02 "Άιθηρ" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-02-aether
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2009-02 "Άιθηρ" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-03-momos-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2009-03 "Μώμος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-03-momos
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2009-03 "Μώμος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-04-moros-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2009-04 "Μόρος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2009-04-moros
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2009-04 "Μόρος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2010-01-hypnos-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2010-01 "Ύπνος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2010-01-hypnos
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2010-01 "Ύπνος" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2010-02-keres-core
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-themes-sidux-core
+Description: transitional dummy package
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2010-02 "Κῆρες" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-themes-sidux-2010-02-keres
+Architecture: all
+Depends: ${misc:Depends}
+Provides: gfxboot-theme
+Description: transitional dummy package
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2010-02 "Κῆρες" theme.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot-theme-aptosid
+Description: transitional dummy package
+ This metapackage pulls in a gfxboot theme, while minimal gfxboot themes for
+ sidux (gfxboot-themes-sidux-core), standard OpenSUSE themes provided by
+ "gfxboot-theme" in Debian are accepted as alternative dependencies, it
+ defaults to the release specific gfxboot theme of the current release.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-art-kde
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-art-kde
+Description: transitional dummy package
+ This metapackage pulls in the artwork themes for the K Desktop Environment
+ while versions for all KDE themes used in sidux are accepted
+ (sidux-art-kde-theme), it defaults to the release specific KDE themes of the
+ current release.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-art-wallpaper
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-art-wallpaper
+Description: transitional dummy package
+ This metapackage pulls in the wallpaper package for various desktop
+ environments and window managers, while versions of all wallpapers used in
+ sidux are accepted (sidux-art-wallpaper-theme), it defaults to the release
+ specific wallpaper package of the current release.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-art-xfce
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-art-xfce
+Description: transitional dummy package
+ This metapackage pulls in the artwork themes for the Xfce desktop environment
+ while versions for all Xfce themes used in sidux are accepted
+ (sidux-art-xfce-theme), it defaults to the release specific Xfce themes of the
+ current release.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-apt-qt4
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ provide a wrapper for invoking apt-get commands from QT4 applications.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-manual-bg
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-en
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Bulgarian language version.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-manual-da
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-en
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Danish language version.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-manual-de
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-de
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ German language version.
+ .
+ transitional metapackage to pull in aptosid-manual-de
+
+Package: sidux-manual-el
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-el
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Greek language version.
+ .
+ transitional metapackage to pull in aptosid-manual-el
+
+Package: sidux-manual-en
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-en
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ English language version.
+ .
+ transitional metapackage to pull in aptosid-manual-en
+
+Package: sidux-manual-es
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-es
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Spanish language version.
+ .
+ transitional metapackage to pull in aptosid-manual-es
+
+Package: sidux-manual-fr
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-fr
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ French language version.
+ .
+ transitional metapackage to pull in aptosid-manual-fr
+
+Package: sidux-manual-hr
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-hr
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Croatian language version.
+ .
+ transitional metapackage to pull in aptosid-manual-hr
+
+Package: sidux-manual-hu
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-en
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Hungarian language version.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-manual-it
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-it
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Italian language version.
+ .
+ transitional metapackage to pull in aptosid-manual-it
+
+Package: sidux-manual-ja
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-ja
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Japanese language version.
+ .
+ transitional metapackage to pull in aptosid-manual-ja
+
+Package: sidux-manual-nl
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-nl
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Dutch language version.
+ .
+ transitional metapackage to pull in aptosid-manual-nl
+
+Package: sidux-manual-pl
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-en
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Polish language version.
+ .
+ This package is obsolete and should be removed.
+
+Package: sidux-manual-pt-br
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-pt-br
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Brazilian Portuguese language version.
+ .
+ transitional metapackage to pull in aptosid-manual-pt-br
+
+Package: sidux-manual-ro
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-ro
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Romanian language version.
+ .
+ transitional metapackage to pull in aptosid-manual-ro
+
+Package: sidux-manual-ru
+Architecture: all
+Depends: ${misc:Depends},
+ aptosid-manual-ru
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ Russian language version.
+ .
+ transitional metapackage to pull in aptosid-manual-ru
+
+Package: gfxboot-theme-sidux-2007-01-chaos
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2007-01 "Χάος"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2007-02-tartaros
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2007-02 
+ "Τάρταρς" for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2007-03-gaia
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2007-03 "Γάια"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2007-04-eros
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2007-04 "Έρως"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2007-04-eros-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2007-04 "Έρως"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-01-nyx
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-01 "Νυξ"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-01-nyx-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-01 "Νυξ"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-02-erebos
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-02 "Έρεβος"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-02-erebos-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-02 "Έρεβος"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-02-erebos-ie
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-02 "Έρεβος"
+ for grub and syslinux. 
+ .
+ Defaulting to English (Irish) locales and only presenting sane locales
+ for celtux installed languages.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-03-ourea
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-03 "Ουρέα"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-03-ourea-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-03 "Ουρέα"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-03-ourea-ie
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-03 "Ουρέα"
+ for grub and syslinux. 
+ .
+ Defaulting to English (Irish) locales and only presenting sane locales
+ for celtux installed languages.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-04-pontos
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-04 "Πόντος"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-04-pontos-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-04 "Πόντος"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2008-04-pontos-ie
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2008-04 "Πόντος"
+ for grub and syslinux. 
+ .
+ Defaulting to English (Irish) locales and only presenting sane locales
+ for celtux installed languages.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-01-ouranos
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-01 "Ουρανός"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-01-ouranos-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-01 "Ουρανός"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-01-ouranos-ie
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-01 "Ουρανός"
+ for grub and syslinux. 
+ .
+ Defaulting to English (Irish) locales and only presenting sane locales
+ for celtux installed languages.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-02-aether
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-02 "Αιθήρ"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-02-aether-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-02 "Αιθήρ"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-03-momos
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-03 "Μώμος"
+ for grub and syslinux.
+ .
+ This package is obsolete and should be removed.
+
+Package: gfxboot-theme-sidux-2009-03-momos-de
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This package provides the gfxboot theme files for sidux 2009-03 "Μώμος"
+ for grub and syslinux. 
+ .
+ Defaulting to German locales.
+ .
+ This package is obsolete and should be removed.

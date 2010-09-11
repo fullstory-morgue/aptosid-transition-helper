@@ -1,0 +1,57 @@
+aptosid-transition-helper (2.6.36.8) unstable; urgency=low
+
+  * gfxboot-theme-sidux.
+  * drop ${shlibs:Depends}, we're only providing empty metapackages.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Sep 2010 03:27:57 +0200
+
+aptosid-transition-helper (2.6.36.7) unstable; urgency=low
+
+  * sidux-manual
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 31 Aug 2010 03:42:22 +0200
+
+aptosid-transition-helper (2.6.36.6) unstable; urgency=low
+
+  * sidux-apt-qt4
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 18:28:31 +0200
+
+aptosid-transition-helper (2.6.36.5) unstable; urgency=low
+
+  * sidux-art-meta
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 03:19:25 +0200
+
+aptosid-transition-helper (2.6.36.4) unstable; urgency=low
+
+  * add keres to gfxboot-themes-sidux
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 02:10:19 +0200
+
+aptosid-transition-helper (2.6.36.3) unstable; urgency=low
+
+  * gfxboot-themes-sidux
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 02:05:55 +0200
+
+aptosid-transition-helper (2.6.36.2) unstable; urgency=low
+
+  * configure-dsl
+  * transitional metapackage can be arch=all.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 28 Aug 2010 00:44:41 +0200
+
+aptosid-transition-helper (2.6.36.1) unstable; urgency=low
+
+  * ttf-sidux
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Aug 2010 19:11:53 +0200
+
+aptosid-transition-helper (2.6.36) unstable; urgency=low
+
+  * Initial Release:
+    - linux-sidux-2.6 --> linux-aptosid-2.6
+    - sidux-searchplugins --> /dev/null
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Aug 2010 17:57:41 +0200
