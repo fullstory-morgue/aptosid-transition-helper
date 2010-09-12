@@ -1,3 +1,15 @@
+aptosid-transition-helper (2.6.36.10) unstable; urgency=low
+
+  * drop sidux-manual-*, we need an epoche there.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 14:41:23 +0200
+
+aptosid-transition-helper (2.6.36.9) unstable; urgency=low
+
+  * sidux-manual-common
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 14:29:14 +0200
+
 aptosid-transition-helper (2.6.36.8) unstable; urgency=low
 
   * gfxboot-theme-sidux.
