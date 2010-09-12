@@ -396,6 +396,17 @@ Description: transitional dummy package
  .
  This package is obsolete and should be removed.
 
+Package: sidux-manual-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: transitional dummy package
+ This manual is divided into common sections, for example, a subject pertaining
+ to partitioning is found in Partitioning your Hard Drive, and topics regarding
+ the Internet/WIFI are grouped in Internet and Networking. There are some
+ topics that cannot be grouped or require stand-alone status.
+ .
+ This package is obsolete and should be removed.
+
 Package: sidux-manual-bg
 Architecture: all
 Depends: ${misc:Depends},
