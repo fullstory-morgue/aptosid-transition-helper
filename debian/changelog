@@ -1,8 +1,9 @@
-aptosid-transition-helper (2.6.36.11) UNRELEASED; urgency=low
+aptosid-transition-helper (2.6.36.11) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Sep 2010 14:42:04 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 21 Jan 2011 13:50:52 +0100
 
 aptosid-transition-helper (2.6.36.10) unstable; urgency=low
 
